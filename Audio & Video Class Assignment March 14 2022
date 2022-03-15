@@ -1,0 +1,7 @@
+<html>
+<body>
+<video width="500px" height="500px" controls>
+<source src="Waves.mp4" type="video/mp4">
+</video>
+</body>
+</html>
