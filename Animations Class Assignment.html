@@ -1,0 +1,100 @@
+
+        <html>
+          <body><!--Create animation of square, rectangle and circle and make the background color get changed.-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Animations</h1>
+        <div class="a">
+
+        </div>
+        <div class="b">
+
+        </div>
+        <div class="c">
+
+        </div>
+    </body>
+</html></body>
+          <style>.a{
+    width:100px;
+    height:100px;
+    background-color:deeppink;
+    animation-name:square;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+@keyframes square{
+    from{
+        background-color:deeppink;
+    }
+    to{
+        background-color:gold;
+    }
+}
+
+.b{
+    width:200px;
+    height:100px;
+    background-color:crimson;
+    animation-name:rectangle;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes rectangle{
+    0% {
+        background-color:crimson;
+    }
+
+    20% {
+        background-color:orange;
+    }
+
+    40% {
+        background-color:gold;
+    }
+
+    60% {
+        background-color:green;
+    }
+
+    80%{
+        background-color:midnightblue;
+    }
+
+    100% {
+        background-color: purple;
+    }
+}
+.c{
+    width:100px;
+    height:100px;
+    background-color:green;
+    animation-name:circle;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    border-radius:100%;
+}
+@keyframes circle{
+    from{
+        background-color:green;
+    }
+    to{
+        background-color:midnightblue;
+    }
+}
+
+.a,.b,.c {
+    margin:25px;
+    border:white 2px solid;
+}
+
+body{
+    background-color:black;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+}</style>
+          <script></script>
+        </html>
+      
